@@ -1,4 +1,4 @@
-import uuid from uuid;
+// import uuid from uuid;
 
 const REMOVE_COMMENT = 'REMOVE_COMMENT';
 const EDIT_COMMENT = 'EDIT_COMMENT';
@@ -16,3 +16,4 @@ boundTHUMB_UP_COMMENT('...');
 
 const boundTHUMB_DOWN_COMMENT = id => dispatch(THUMB_DOWN_COMMENT(id));
 boundTHUMB_DOWN_COMMENT('...');
+
